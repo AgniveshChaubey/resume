@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        td,
+th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+#name{
+    min-width: 555px;
+}
+
+#t3{
+    margin-top: 2vh;
+    min-width: 790px;
+}
+
+.t3d{
+    text-align: left;
+}
+#timeTable{
+    align-items: center;
+    justify-content: center;
+}
+    </style>
+    <title>Time Table</title>
+</head>
+
+<body>
+    <div id="timeTable">
+        <table>
+            <tr>
+                <th>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/BVM-Logo-1.png" alt="">
+                </th>
+                <th id="name">
+                    BIRLA VISHVAKARMA MAHAVIDYALAYA (ENGINEERING COLLEGE)
+                </th>
+            <tr>
+        </table>
+        <table>
+            <tr>
+                <th>Time</td>
+                <th>Monday</td>
+                <th>Tuesday</td>
+                <th>Wednesday</td>
+                <th>Thursday</td>
+                <th>Friday</td>
+                <th>Saturday</td>
+            </tr>
+            <tr>
+                <th>10:30-11:25</th>
+                <td>3EE09 - ARP</td>
+                <td>3EE11 - AMP</td>
+                <td>3EE11 - AMP</td>
+                <td> Proxy</td>
+                <td>3EE12 - AMP</td>
+                <td>3EE31 - GBR</td>
+            </tr>
+            <tr>
+                <th>11:30-12:25</th>
+                <td>3EE15 - YRP</td>
+                <td>3EE09 - ARP</td>
+                <td>3EE15 - YRP</td>
+                <td> Proxy</td>
+                <td>3EE12 - AMP</td>
+                <td>3EE31 - GBR</td>
+            </tr>
+            <tr>
+                <th>12:30-01:25</th>
+                <td>3EE13 - DAP</td>
+                <td>3EE13 - DAP</td>
+                <td>3IT85 - AAP</td>
+                <td>3IT85 - AAP</td>
+                <td>3IT85 - AAP</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>01:30 - 02:00</th>
+                <td>-</td>
+                <td>-</td>
+                <td id="recess">RECESS</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>02:00-02:55</th>
+                <td>-</td>
+                <td>3IT85(P)</td>
+                <td>-</td>
+                <td>-</td>
+                <td>3EE31 - KG</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>03:00-03:55</th>
+                <td>-</td>
+                <td>3IT85(P)</td>
+                <td>-</td>
+                <td>-</td>
+                <td>3EE31 - KG</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>04:00-04:55</th>
+                <td>3EE14(P) - DAP</td>
+                <td>33310 - HP</td>
+                <td>-</td>
+                <td>3EE13 - DAP</td>
+                <td>3EE11 - AMP</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>05:00-05:55</th>
+                <td>3EE14(P) - DAP</td>
+                <td>33310 - HP</td>
+                <td>-</td>
+                <td>3EE15 - YRP</td>
+                <td>3EE09 - ARP</td>
+                <td>-</td>
+            </tr>
+        </table>
+        <table id="t3">
+            <tr>
+                <th>COURSES CODE</th>
+                <th class="t3d">COURSES TITLE</th>
+            <tr>
+            <tr>
+                <td>3EE09</td>
+                <td class="t3d">CONTROL SYSTEM</td>
+            <tr>
+            <tr>
+                <td>3EE10</td>
+                <td class="t3d">CONTROL SYSTEM LABORATORY</td>
+            <tr>
+            <tr>
+                <td>3EE11</td>
+                <td class="t3d">POWER SYSTEM -II</td>
+            <tr>
+            <tr>
+                <td>3EE12</td>
+                <td class="t3d">POWER SYSTEM -II LABORATORY</td>
+            <tr>
+            <tr>
+                <td>3EE13</td>
+                <td class="t3d">iNDUSTRIAL AUTOMATION AND CONOTROL</td>
+            <tr>
+            <tr>
+                <td>3EE14</td>
+                <td class="t3d">INDUSTRIAL AUTOMATION AND CONOTROL</td>
+            <tr>
+            <tr>
+                <td>3EE15</td>
+                <td class="t3d">ELECTRICAL POWER UTILIZATION AND TRACTION</td>
+            <tr>
+            <tr>
+                <td>3EE31</td>
+                <td class="t3d">ELECTRONICS DESIGN LABORATORY (MINI PROJECT)</td>
+            <tr>
+        </table>
+    </div>
+</body>
+
+</html>
