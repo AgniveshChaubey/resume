@@ -18,6 +18,9 @@ th {
 #name{
     min-width: 555px;
 }
+bodt{
+background-color: sky-blue;
+} 
 
 #t3{
     margin-top: 2vh;
